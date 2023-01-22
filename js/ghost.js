@@ -10,7 +10,7 @@ function createGhosts(board) {
 }
 
 function createGhost(board) {
-    // TODO
+    // TODO: set arbitrary start pos & currCellContent
 }
 
 function moveGhosts() {

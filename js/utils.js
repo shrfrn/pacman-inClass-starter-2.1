@@ -2,7 +2,7 @@
 
 function renderBoard(mat, selector) {
 
-    var strHTML = '<table border="0"><tbody>'
+    var strHTML = '<table><tbody>'
     for (var i = 0; i < mat.length; i++) {
 
         strHTML += '<tr>'

@@ -12,6 +12,7 @@ function movePacman(ev) {
     // TODO: use getNextLocation(), nextCell
     // TODO: return if cannot move
     // TODO: hitting a ghost? call gameOver
+    // TODO: hitting food? call updateScore
 
 
     // TODO: moving from current location:

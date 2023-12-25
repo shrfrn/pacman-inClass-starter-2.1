@@ -14,8 +14,8 @@ function init() {
     console.log('hello')
 
     gBoard = buildBoard()
-    createPacman(gBoard)
-    createGhosts(gBoard)
+    // createPacman(gBoard)
+    // createGhosts(gBoard)
     
     renderBoard(gBoard, '.board-container')
     gGame.isOn = true

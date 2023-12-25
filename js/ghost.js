@@ -3,14 +3,16 @@
 const GHOST = '&#9781'
 var gGhosts = []
 
-var gIntervalGhosts
+var gGhostsInterval
 
 function createGhosts(board) {
     // TODO: 3 ghosts and an interval
 }
 
 function createGhost(board) {
-    // TODO: set arbitrary start pos & currCellContent
+    // TODO: Create a ghost with arbitrary start pos & currCellContent
+    // TODO: Add the ghost to the ghosts array
+    // TODO: Update the board
 }
 
 function moveGhosts() {

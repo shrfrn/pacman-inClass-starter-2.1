@@ -1,7 +1,7 @@
 'use strict'
 
-const WALL = '#'
-const FOOD = '.'
+const WALL = '&#8251;'
+const FOOD = '&middot;'
 const EMPTY = ' '
 
 const gGame = {

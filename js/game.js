@@ -14,8 +14,8 @@ function init() {
     console.log('hello')
 
     gBoard = buildBoard()
-    // createPacman(gBoard)
-    // createGhosts(gBoard)
+    createPacman(gBoard)
+    createGhosts(gBoard)
     
     renderBoard(gBoard, '.board-container')
     gGame.isOn = true
@@ -43,9 +43,14 @@ function buildBoard() {
 
 function updateScore(diff) {
     // TODO: update model and dom
+    gGame.score += diff
+
+    const elScore= document.querySelector('.score span')
+    elScore.innerText = gGame.score
 }
 
 function gameOver() {
     console.log('Game Over')
     // TODO
+    gGame.isOn = false
 }

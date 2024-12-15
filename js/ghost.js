@@ -6,7 +6,7 @@ var gGhosts = []
 var gGhostsInterval
 
 function createGhosts(board) {
-    // TODO: 3 ghosts and an interval
+    // TODO: Create 3 ghosts and an interval
 }
 
 function createGhost(board) {

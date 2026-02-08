@@ -21,10 +21,10 @@ function renderBoard(mat, selector) {
     elContainer.innerHTML = strHTML
 }
 
-// location is an object like this - { i: 2, j: 7 }
-function renderCell(location, value) {
+// pos is an object like this - { i: 2, j: 7 }
+function renderCell(pos, value) {
     // Select the elCell and set the value
-    const elCell = document.querySelector(`.cell-${location.i}-${location.j}`)
+    const elCell = document.querySelector(`.cell-${pos.i}-${pos.j}`)
     elCell.innerHTML = value
 }
 

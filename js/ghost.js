@@ -20,15 +20,16 @@ function moveGhosts() {
 }
 
 function moveGhost(ghost) {
-    // TODO: figure out moveDiff, nextLocation, nextCell
+    // TODO: figure out moveDiff, nextPos, nextCell
 
     // TODO: return if cannot move
     // TODO: hitting a pacman? call gameOver
 
-    // TODO: moving from current location:
+    // TODO: moving from current pos:
     // TODO: update the model (restore prev cell contents)
     // TODO: update the DOM
-    // TODO: Move the ghost to new location:
+    
+    // TODO: Move the ghost to new pos:
     // TODO: update the model (save cell contents so we can restore later)
     // TODO: update the DOM
 }
